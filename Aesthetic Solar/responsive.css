@@ -1,0 +1,31 @@
+/* headr section-----------------------------. */
+@media(max-width:900px) {
+
+  .hide {
+    display: none;
+  }
+
+  .menu {
+    display: block;
+  }
+
+  /* .sidebar{
+    display: flex;
+  } */
+
+  .sidebar ul {
+    margin: auto;
+    flex-direction: column;
+    list-style: none;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+    height: 100vh;
+    width: 300px;
+    background-color: transparent;
+    background-color: white;
+    backdrop-filter: blur(10px);
+    z-index: 1000;
+  }
+
+}
